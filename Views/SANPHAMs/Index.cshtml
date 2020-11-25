@@ -1,0 +1,107 @@
+@model IEnumerable<DoAn1_BanFinal.Models.Sanpham>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpTen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpHangsanxuat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpKichthuocmanhinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpDophangiai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpHedieuhanh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpChipxuli)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpRam)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpRom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpDungluongpin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpDongia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpHinhanh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dm)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpHangsanxuat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpKichthuocmanhinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpDophangiai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpHedieuhanh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpChipxuli)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpRam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpRom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpDungluongpin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpDongia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpHinhanh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dm.DmId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SpId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SpId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SpId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

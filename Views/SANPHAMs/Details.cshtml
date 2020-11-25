@@ -1,0 +1,96 @@
+@model DoAn1_BanFinal.Models.Sanpham
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Sanpham</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HaId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HaId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpTen)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpTen)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpHangsanxuat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpHangsanxuat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpKichthuocmanhinh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpKichthuocmanhinh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpDophangiai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpDophangiai)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpHedieuhanh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpHedieuhanh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpChipxuli)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpChipxuli)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpRam)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpRam)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpRom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpRom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpDungluongpin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpDungluongpin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpDongia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpDongia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpHinhanh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpHinhanh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dm)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dm.DmId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.SpId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

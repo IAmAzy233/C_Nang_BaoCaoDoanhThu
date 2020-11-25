@@ -1,0 +1,45 @@
+@model DoAn1_BanFinal.Models.Khachhang
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Khachhang</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="KhId" class="control-label"></label>
+                <input asp-for="KhId" class="form-control" />
+                <span asp-validation-for="KhId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KhTen" class="control-label"></label>
+                <input asp-for="KhTen" class="form-control" />
+                <span asp-validation-for="KhTen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KhDiachi" class="control-label"></label>
+                <input asp-for="KhDiachi" class="form-control" />
+                <span asp-validation-for="KhDiachi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KhSdt" class="control-label"></label>
+                <input asp-for="KhSdt" class="form-control" />
+                <span asp-validation-for="KhSdt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

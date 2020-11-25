@@ -1,0 +1,53 @@
+@model IEnumerable<DoAn1_BanFinal.Models.Chitietdonhang>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CtDhSoluong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CtDhThanhtien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sp)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CtDhSoluong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CtDhThanhtien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dh.DhId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sp.SpId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CtDhId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CtDhId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CtDhId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

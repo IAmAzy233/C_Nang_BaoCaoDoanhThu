@@ -1,0 +1,94 @@
+@model DoAn1_BanFinal.Models.Sanpham
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Sanpham</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SpId" class="control-label"></label>
+                <input asp-for="SpId" class="form-control" />
+                <span asp-validation-for="SpId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DmId" class="control-label"></label>
+                <select asp-for="DmId" class ="form-control" asp-items="ViewBag.DmId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="HaId" class="control-label"></label>
+                <input asp-for="HaId" class="form-control" />
+                <span asp-validation-for="HaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpTen" class="control-label"></label>
+                <input asp-for="SpTen" class="form-control" />
+                <span asp-validation-for="SpTen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpHangsanxuat" class="control-label"></label>
+                <input asp-for="SpHangsanxuat" class="form-control" />
+                <span asp-validation-for="SpHangsanxuat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpKichthuocmanhinh" class="control-label"></label>
+                <input asp-for="SpKichthuocmanhinh" class="form-control" />
+                <span asp-validation-for="SpKichthuocmanhinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpDophangiai" class="control-label"></label>
+                <input asp-for="SpDophangiai" class="form-control" />
+                <span asp-validation-for="SpDophangiai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpHedieuhanh" class="control-label"></label>
+                <input asp-for="SpHedieuhanh" class="form-control" />
+                <span asp-validation-for="SpHedieuhanh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpChipxuli" class="control-label"></label>
+                <input asp-for="SpChipxuli" class="form-control" />
+                <span asp-validation-for="SpChipxuli" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpRam" class="control-label"></label>
+                <input asp-for="SpRam" class="form-control" />
+                <span asp-validation-for="SpRam" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpRom" class="control-label"></label>
+                <input asp-for="SpRom" class="form-control" />
+                <span asp-validation-for="SpRom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpDungluongpin" class="control-label"></label>
+                <input asp-for="SpDungluongpin" class="form-control" />
+                <span asp-validation-for="SpDungluongpin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpDongia" class="control-label"></label>
+                <input asp-for="SpDongia" class="form-control" />
+                <span asp-validation-for="SpDongia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpHinhanh" class="control-label"></label>
+                <input asp-for="SpHinhanh" class="form-control" />
+                <span asp-validation-for="SpHinhanh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
