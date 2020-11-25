@@ -11,12 +11,8 @@ namespace DoAn1_BanFinal.Controllers
 {
     public class SANPHAMsController : Controller
     {
-        private readonly acomptec_shoDidongCTNDContext _context;
+        private readonly acomptec_shoDidongCTNDContext _context = new acomptec_shoDidongCTNDContext();
 
-        public SANPHAMsController(acomptec_shoDidongCTNDContext context)
-        {
-            _context = context;
-        }
 
         // GET: SANPHAMs
         public async Task<IActionResult> Index()

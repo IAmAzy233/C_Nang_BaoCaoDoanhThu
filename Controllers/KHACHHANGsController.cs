@@ -11,12 +11,8 @@ namespace DoAn1_BanFinal.Controllers
 {
     public class KHACHHANGsController : Controller
     {
-        private readonly acomptec_shoDidongCTNDContext _context;
+       private readonly acomptec_shoDidongCTNDContext _context = new acomptec_shoDidongCTNDContext();
 
-        public KHACHHANGsController(acomptec_shoDidongCTNDContext context)
-        {
-            _context = context;
-        }
 
         // GET: KHACHHANGs
         public async Task<IActionResult> Index()

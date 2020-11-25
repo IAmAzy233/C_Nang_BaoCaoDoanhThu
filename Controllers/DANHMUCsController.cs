@@ -11,12 +11,8 @@ namespace DoAn1_BanFinal.Controllers
 {
     public class DANHMUCsController : Controller
     {
-        private readonly acomptec_shoDidongCTNDContext _context;
+        private readonly acomptec_shoDidongCTNDContext _context = new acomptec_shoDidongCTNDContext();
 
-        public DANHMUCsController(acomptec_shoDidongCTNDContext context)
-        {
-            _context = context;
-        }
 
         // GET: DANHMUCs
         public async Task<IActionResult> Index()

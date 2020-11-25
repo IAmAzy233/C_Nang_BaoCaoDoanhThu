@@ -11,12 +11,7 @@ namespace DoAn1_BanFinal.Controllers
 {
     public class CHITIETDONHANGsController : Controller
     {
-        private readonly acomptec_shoDidongCTNDContext _context;
-
-        public CHITIETDONHANGsController(acomptec_shoDidongCTNDContext context)
-        {
-            _context = context;
-        }
+        private readonly acomptec_shoDidongCTNDContext _context = new acomptec_shoDidongCTNDContext();
 
         // GET: CHITIETDONHANGs
         public async Task<IActionResult> Index()

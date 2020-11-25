@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj": {}
+    "D:\\QLCHDT3\\DoAn1_Finall\\DoAn1_BanFinal.csproj": {}
   },
   "projects": {
-    "D:\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj": {
+    "D:\\QLCHDT3\\DoAn1_Finall\\DoAn1_BanFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj",
+        "projectUniqueName": "D:\\QLCHDT3\\DoAn1_Finall\\DoAn1_BanFinal.csproj",
         "projectName": "DoAn1_BanFinal",
-        "projectPath": "D:\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj",
+        "projectPath": "D:\\QLCHDT3\\DoAn1_Finall\\DoAn1_BanFinal.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\DoAn1_BanFinal\\obj\\",
+        "outputPath": "D:\\QLCHDT3\\DoAn1_Finall\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

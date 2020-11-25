@@ -11,12 +11,7 @@ namespace DoAn1_BanFinal.Controllers
 {
     public class TAIKHOANsController : Controller
     {
-        private readonly acomptec_shoDidongCTNDContext _context;
-
-        public TAIKHOANsController(acomptec_shoDidongCTNDContext context)
-        {
-            _context = context;
-        }
+       private readonly acomptec_shoDidongCTNDContext _context = new acomptec_shoDidongCTNDContext();
 
         // GET: TAIKHOANs
         public async Task<IActionResult> Index()

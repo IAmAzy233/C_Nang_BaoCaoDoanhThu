@@ -11,12 +11,8 @@ namespace DoAn1_BanFinal.Controllers
 {
     public class QUANLYsController : Controller
     {
-        private readonly acomptec_shoDidongCTNDContext _context;
+       private readonly acomptec_shoDidongCTNDContext _context = new acomptec_shoDidongCTNDContext();
 
-        public QUANLYsController(acomptec_shoDidongCTNDContext context)
-        {
-            _context = context;
-        }
 
         // GET: QUANLYs
         public async Task<IActionResult> Index()
