@@ -1,0 +1,104 @@
+@model IEnumerable<DoAn1_BanFinal.Models.Donhang>
+
+@{
+    ViewData["Title"] = "BaoCaoDoanhThu";
+}
+
+<h1>BaoCaoDoanhThu</h1>
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<head>
+<title>Visitors an Admin Panel Category Bootstrap Responsive Website Template | Chartjs :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Visitors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<!-- //bootstrap-css -->
+<!-- Custom CSS -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/style-responsive.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/morris.css">
+<!-- font CSS -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font.css" type="text/css"/>
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<script src="js/jquery2.0.3.min.js"></script>
+<!-- charts -->
+<script src="js/raphael-min.js"></script>
+<script src="js/morris.js"></script>
+<!-- //charts -->
+</head>
+<body>
+<section id="container">
+<!--sidebar end-->
+<!--main content start-->
+<section id="main-content">
+	<section class="wrapper">
+		<div class="chart_agile">
+        <div class="col-md-12 w3ls-graph">
+                    <div class="agile-last-grid">
+                        <div class="area-grids-heading">
+                            <h3>Báo cáo Doanh Thu<i class="pull-right">Ngày Tháng</i></h3>
+
+                        </div>
+                        <div id="graph9"></div>
+                        <script>
+                        var day_data = [
+                          {"elapsed": "1", "value": 560000000},
+                          {"elapsed": "2", "value": 548880421},
+                          {"elapsed": "3", "value": 354654659},
+                          {"elapsed": "4", "value": 445879531},
+                          {"elapsed": "5", "value": 321321599},
+                          {"elapsed": "6", "value": 887978456},
+                          {"elapsed": "7", "value": 513218789},
+                          {"elapsed": "8", "value": 664654654},
+                          {"elapsed": "9", "value": 998564654},
+                          {"elapsed": "10", "value": 664849841},
+                          {"elapsed": "11", "value": 263112596},
+                          {"elapsed": "12", "value": 751231321}
+                        ];
+                        Morris.Line({
+                          element: 'graph9',
+                          data: day_data,
+                          xkey: 'elapsed',
+                          ykeys: ['value'],
+                          labels: ['value'],
+                          parseTime: false
+                        });
+                        </script>
+
+                    </div>
+		</div>
+</section>
+ <!-- footer -->
+		  <div class="footer">
+			<div class="wthree-copyright">
+			  <p>Â© 2017 Visitors. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			</div>
+		  </div>
+  <!-- / footer -->
+</section>
+
+<!--main content end-->
+</section>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/jquery.slimscroll.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
+<script src="js/jquery.scrollTo.js"></script>
+</body>
+</html>
+
+

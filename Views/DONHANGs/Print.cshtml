@@ -1,0 +1,54 @@
+@model DoAn1_BanFinal.Models.Donhang
+@{
+    ViewData["Title"] = "Print";
+    Layout="";
+}
+
+<html>
+<head>
+	<link href="~/StylePrint.css" rel="stylesheet" />
+    <style>
+        	table, th, td {
+        	    border: 1px solid black;
+        	    border-collapse: collapse;
+        	}
+        </style>
+</head>
+
+<body onload="window.print()">
+	<div class="book">
+		<div class="page">
+            <div class="subpage">
+                <h1 style="text-align: center;">Hóa Đơn Mua Hàng</h1>
+                <p style="text-align: center; "><i>Cửa hàng điện thoại di động</i><p>
+                <p>Mã hóa đơn: @Model.DhId </p>
+                <p>Mã hóa đơn: @Model.KhId </p>
+                <p>Mã hóa đơn: @Model.DhThoigianmua </p>
+                <p>Danh sách sản phẩm: </p>
+                
+                <table style="width: 100%; text-align: center;">
+                    <th>Mặt Hàng</th>
+                    <th>Số Lượng</th>
+                    <th>Tạm Tính</th>
+                    @foreach (var item in Model.Chitietdonhang)
+                    {
+                        <tr>  
+                            <td>
+                                @item.SpId
+                            </td>
+                            <td>   
+                                @item.CtDhSoluong
+                            </td>
+                            <td>
+                                <span class="text-muted">@(item.CtDhThanhtien.ToString("n0")) VND</span>
+                            </td>
+                        </tr>
+                        
+                    }
+                </table>
+                <p>Số Tiền Phải Trả:<span class="text-muted">@(Model.DhTongtien.ToString("n0")) VND</span></p>
+		    </div>
+        </div>
+	</div>
+</body>
+</html>

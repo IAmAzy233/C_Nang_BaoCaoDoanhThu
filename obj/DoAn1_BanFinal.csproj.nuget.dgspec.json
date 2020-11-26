@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\QLCHDT3\\DoAn1_Finall\\DoAn1_BanFinal.csproj": {}
+    "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj": {}
   },
   "projects": {
-    "D:\\QLCHDT3\\DoAn1_Finall\\DoAn1_BanFinal.csproj": {
+    "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QLCHDT3\\DoAn1_Finall\\DoAn1_BanFinal.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj",
         "projectName": "DoAn1_BanFinal",
-        "projectPath": "D:\\QLCHDT3\\DoAn1_Finall\\DoAn1_BanFinal.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\QLCHDT3\\DoAn1_Finall\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -86,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

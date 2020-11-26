@@ -39,6 +39,24 @@ namespace DoAn1_BanFinal.Controllers
 
             return View(donhang);
         }
+        public async Task<IActionResult> Print(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var donhang = await _context.Donhang
+                .Include(d => d.Kh)
+                .Include(c=> c.Chitietdonhang)
+                .FirstOrDefaultAsync(m => m.DhId == id);
+            if (donhang == null)
+            {
+                return NotFound();
+            }
+
+            return View(donhang);
+        }
 
         // GET: DONHANGs/Create
         public IActionResult Create()
