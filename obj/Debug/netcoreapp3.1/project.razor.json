@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj",
+  "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\DoAn1_BanFinal.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,223 +14392,223 @@
   "RootNamespace": "DoAn1_BanFinal",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\CHITIETDONHANGs\\Create.cshtml",
-      "TargetPath": "Views\\CHITIETDONHANGs\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DONHANGs\\Details.cshtml",
-      "TargetPath": "Views\\DONHANGs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\TAIKHOANs\\Create.cshtml",
-      "TargetPath": "Views\\TAIKHOANs\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DONHANGs\\Edit.cshtml",
-      "TargetPath": "Views\\DONHANGs\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\QUANLYs\\Index.cshtml",
-      "TargetPath": "Views\\QUANLYs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DONHANGs\\Create.cshtml",
-      "TargetPath": "Views\\DONHANGs\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\TAIKHOANs\\Delete.cshtml",
-      "TargetPath": "Views\\TAIKHOANs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\CHITIETDONHANGs\\Delete.cshtml",
-      "TargetPath": "Views\\CHITIETDONHANGs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\SANPHAMs\\Delete.cshtml",
-      "TargetPath": "Views\\SANPHAMs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\CHITIETDONHANGs\\Index.cshtml",
-      "TargetPath": "Views\\CHITIETDONHANGs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\QUANLYs\\Details.cshtml",
-      "TargetPath": "Views\\QUANLYs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\KHACHHANGs\\Index.cshtml",
-      "TargetPath": "Views\\KHACHHANGs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DANHMUCs\\Edit.cshtml",
-      "TargetPath": "Views\\DANHMUCs\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\KHACHHANGs\\Edit.cshtml",
-      "TargetPath": "Views\\KHACHHANGs\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\SANPHAMs\\Index.cshtml",
-      "TargetPath": "Views\\SANPHAMs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\CHITIETDONHANGs\\Edit.cshtml",
-      "TargetPath": "Views\\CHITIETDONHANGs\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\CHITIETDONHANGs\\Details.cshtml",
-      "TargetPath": "Views\\CHITIETDONHANGs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DANHMUCs\\Details.cshtml",
-      "TargetPath": "Views\\DANHMUCs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DANHMUCs\\Index.cshtml",
-      "TargetPath": "Views\\DANHMUCs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DONHANGs\\Index.cshtml",
-      "TargetPath": "Views\\DONHANGs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\QUANLYs\\Edit.cshtml",
-      "TargetPath": "Views\\QUANLYs\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\SANPHAMs\\Details.cshtml",
-      "TargetPath": "Views\\SANPHAMs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\TAIKHOANs\\Index.cshtml",
-      "TargetPath": "Views\\TAIKHOANs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DONHANGs\\Print.cshtml",
-      "TargetPath": "Views\\DONHANGs\\Print.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\KHACHHANGs\\Details.cshtml",
-      "TargetPath": "Views\\KHACHHANGs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\SANPHAMs\\Edit.cshtml",
-      "TargetPath": "Views\\SANPHAMs\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DANHMUCs\\Delete.cshtml",
-      "TargetPath": "Views\\DANHMUCs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\QUANLYs\\Delete.cshtml",
-      "TargetPath": "Views\\QUANLYs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DANHMUCs\\Create.cshtml",
-      "TargetPath": "Views\\DANHMUCs\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\KHACHHANGs\\Delete.cshtml",
-      "TargetPath": "Views\\KHACHHANGs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\TAIKHOANs\\Details.cshtml",
-      "TargetPath": "Views\\TAIKHOANs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DONHANGs\\BaoCaoDoanhThu.cshtml",
-      "TargetPath": "Views\\DONHANGs\\BaoCaoDoanhThu.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\SANPHAMs\\Create.cshtml",
-      "TargetPath": "Views\\SANPHAMs\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\DONHANGs\\Delete.cshtml",
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\QUANLYs\\Delete.cshtml",
+      "TargetPath": "Views\\QUANLYs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\QUANLYs\\Edit.cshtml",
+      "TargetPath": "Views\\QUANLYs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DONHANGs\\Create.cshtml",
+      "TargetPath": "Views\\DONHANGs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\CHITIETDONHANGs\\Details.cshtml",
+      "TargetPath": "Views\\CHITIETDONHANGs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\CHITIETDONHANGs\\Edit.cshtml",
+      "TargetPath": "Views\\CHITIETDONHANGs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DONHANGs\\Edit.cshtml",
+      "TargetPath": "Views\\DONHANGs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\SANPHAMs\\Create.cshtml",
+      "TargetPath": "Views\\SANPHAMs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\QUANLYs\\Details.cshtml",
+      "TargetPath": "Views\\QUANLYs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DANHMUCs\\Index.cshtml",
+      "TargetPath": "Views\\DANHMUCs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\QUANLYs\\Create.cshtml",
+      "TargetPath": "Views\\QUANLYs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DONHANGs\\Delete.cshtml",
       "TargetPath": "Views\\DONHANGs\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\TAIKHOANs\\Edit.cshtml",
-      "TargetPath": "Views\\TAIKHOANs\\Edit.cshtml",
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\CHITIETDONHANGs\\Delete.cshtml",
+      "TargetPath": "Views\\CHITIETDONHANGs\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\KHACHHANGs\\Create.cshtml",
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\SANPHAMs\\Edit.cshtml",
+      "TargetPath": "Views\\SANPHAMs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DANHMUCs\\Edit.cshtml",
+      "TargetPath": "Views\\DANHMUCs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\KHACHHANGs\\Create.cshtml",
       "TargetPath": "Views\\KHACHHANGs\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\Views\\QUANLYs\\Create.cshtml",
-      "TargetPath": "Views\\QUANLYs\\Create.cshtml",
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\TAIKHOANs\\Details.cshtml",
+      "TargetPath": "Views\\TAIKHOANs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\SANPHAMs\\Delete.cshtml",
+      "TargetPath": "Views\\SANPHAMs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\TAIKHOANs\\Delete.cshtml",
+      "TargetPath": "Views\\TAIKHOANs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DONHANGs\\BaoCaoDoanhThu.cshtml",
+      "TargetPath": "Views\\DONHANGs\\BaoCaoDoanhThu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\KHACHHANGs\\Delete.cshtml",
+      "TargetPath": "Views\\KHACHHANGs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DONHANGs\\Print.cshtml",
+      "TargetPath": "Views\\DONHANGs\\Print.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\SANPHAMs\\Details.cshtml",
+      "TargetPath": "Views\\SANPHAMs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\KHACHHANGs\\Index.cshtml",
+      "TargetPath": "Views\\KHACHHANGs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\QUANLYs\\Index.cshtml",
+      "TargetPath": "Views\\QUANLYs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DANHMUCs\\Details.cshtml",
+      "TargetPath": "Views\\DANHMUCs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\KHACHHANGs\\Details.cshtml",
+      "TargetPath": "Views\\KHACHHANGs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\KHACHHANGs\\Edit.cshtml",
+      "TargetPath": "Views\\KHACHHANGs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\CHITIETDONHANGs\\Create.cshtml",
+      "TargetPath": "Views\\CHITIETDONHANGs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\CHITIETDONHANGs\\Index.cshtml",
+      "TargetPath": "Views\\CHITIETDONHANGs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DANHMUCs\\Delete.cshtml",
+      "TargetPath": "Views\\DANHMUCs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\SANPHAMs\\Index.cshtml",
+      "TargetPath": "Views\\SANPHAMs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\TAIKHOANs\\Create.cshtml",
+      "TargetPath": "Views\\TAIKHOANs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DONHANGs\\Details.cshtml",
+      "TargetPath": "Views\\DONHANGs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DONHANGs\\Index.cshtml",
+      "TargetPath": "Views\\DONHANGs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\DANHMUCs\\Create.cshtml",
+      "TargetPath": "Views\\DANHMUCs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\TAIKHOANs\\Edit.cshtml",
+      "TargetPath": "Views\\TAIKHOANs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Desktop\\DoAn1_Finall\\Views\\TAIKHOANs\\Index.cshtml",
+      "TargetPath": "Views\\TAIKHOANs\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

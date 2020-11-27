@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj": {}
+    "C:\\Users\\admin\\Desktop\\DoAn1_Finall\\DoAn1_BanFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj": {
+    "C:\\Users\\admin\\Desktop\\DoAn1_Finall\\DoAn1_BanFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\DoAn1_Finall\\DoAn1_BanFinal.csproj",
         "projectName": "DoAn1_BanFinal",
-        "projectPath": "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\DoAn1_Finall\\DoAn1_BanFinal.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\DoAn1_Finall\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

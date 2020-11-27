@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y3FrXkaV1FOxbxEd4qs2XheGtZD8wRx+snajMHJM5IKVKGZOZTofGqC+Ye5axjFGlJIiRsseK4u+ux9+/VByxw==",
+  "dgSpecHash": "0YOO3Nm3swk/hO5HEdJR7vjA5+P0Ni/4q0+77msiMq3nRHZk7yDRdJ2hh033J45cMTxbz+BBno+OqPRCReJsLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\DoAn1_BanFinal\\DoAn1_BanFinal.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\DoAn1_Finall\\DoAn1_BanFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.9\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.9.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

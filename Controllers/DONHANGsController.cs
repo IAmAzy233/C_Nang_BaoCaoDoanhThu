@@ -20,6 +20,15 @@ namespace DoAn1_BanFinal.Controllers
             var acomptec_shoDidongCTNDContext = _context.Donhang.Include(d => d.Kh);
             return View(await acomptec_shoDidongCTNDContext.ToListAsync());
         }
+        public async Task<IActionResult> BaoCaoDoanhThu()
+        {
+            var acomptec_shoDidongCTNDContext = _context.Donhang.Include(d => d.Kh);
+            return View(await acomptec_shoDidongCTNDContext.ToListAsync());
+        }
+        // public Donhang GiaTri(int a)
+        // {
+        //     var don = _context.Donhang.FromSql("select DH_TONGTIEN from donhang where MONTH(DH_THOIGIANMUA) = {0}",a);
+        // }
 
         // GET: DONHANGs/Details/5
         public async Task<IActionResult> Details(string id)
