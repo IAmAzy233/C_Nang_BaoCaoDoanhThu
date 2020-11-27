@@ -1,4 +1,4 @@
-@model  IEnumerable<DoAn1_BanFinal.Models.Donhang>
+@model   IEnumerable<DoAn1_BanFinal.Models.Donhang>
 
 @{
     ViewData["Title"] = "BaoCaoDoanhThu";
@@ -47,17 +47,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         });
                         </script>
                             @{
-                              int thang =1;
-                              double tong = 0;
+                              int[] GiaTri = new int[12];
                             }
                             @foreach (var item in Model)
                             {
-                                if(thang == item.DhThoigianmua.Month)
-                                {
-                                  tong= tong+item.DhTongtien;
-                                  <p>@tong</p>
-                                }
-                                thang++;
+                              GiaTri[item.DhThoigianmua.Month-1] += item.DhTongtien;
+                            }
+                            @for(int i=0;i<GiaTri.Length;i++)
+                            {
+                              <p>@GiaTri[i]</p>
                             }
                             
                   </div>
